@@ -1,12 +1,13 @@
 package log
 
 import (
-	"conf"
 	"errors"
 	"os"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/ma332567575/mars/conf"
 
 	"github.com/sirupsen/logrus"
 )

@@ -1,9 +1,10 @@
 package cluster
 
 import (
-	"conf"
 	"fmt"
-	"network"
+
+	"github.com/ma332567575/mars/conf"
+	"github.com/ma332567575/mars/network"
 
 	protobuf "github.com/golang/protobuf/proto"
 )

@@ -1,12 +1,13 @@
 package module
 
 import (
-	"conf"
-	"flylog"
 	"fmt"
-	"network"
 	"runtime"
 	"sync"
+
+	"github.com/ma332567575/mars/conf"
+	"github.com/ma332567575/mars/log"
+	"github.com/ma332567575/mars/network"
 )
 
 type Module interface {
